@@ -1,0 +1,186 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1648190270.json", 
+	"title": "Root", 
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items", 
+		"title": "Items", 
+		"type": "object",
+		"required": [
+			"Title",
+			"Year",
+			"Rated",
+			"Released",
+			"Runtime",
+			"Genre",
+			"Director",
+			"Writer",
+			"Actors",
+			"Plot",
+			"Language",
+			"Country",
+			"Awards",
+			"Poster",
+			"Metascore",
+			"imdbRating",
+			"imdbVotes",
+			"imdbID",
+			"Type",
+			"Response",
+			"Image"
+		],
+		"properties": {
+			"Title": {
+				"$id": "#root/items/Title", 
+				"title": "Title", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Year": {
+				"$id": "#root/items/Year", 
+				"title": "Year", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Rated": {
+				"$id": "#root/items/Rated", 
+				"title": "Rated", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Released": {
+				"$id": "#root/items/Released", 
+				"title": "Released", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Runtime": {
+				"$id": "#root/items/Runtime", 
+				"title": "Runtime", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Genre": {
+				"$id": "#root/items/Genre", 
+				"title": "Genre", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Director": {
+				"$id": "#root/items/Director", 
+				"title": "Director", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Writer": {
+				"$id": "#root/items/Writer", 
+				"title": "Writer", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Actors": {
+				"$id": "#root/items/Actors", 
+				"title": "Actors", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Plot": {
+				"$id": "#root/items/Plot", 
+				"title": "Plot", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Language": {
+				"$id": "#root/items/Language", 
+				"title": "Language", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Country": {
+				"$id": "#root/items/Country", 
+				"title": "Country", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Awards": {
+				"$id": "#root/items/Awards", 
+				"title": "Awards", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Poster": {
+				"$id": "#root/items/Poster", 
+				"title": "Poster", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Metascore": {
+				"$id": "#root/items/Metascore", 
+				"title": "Metascore", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"imdbRating": {
+				"$id": "#root/items/imdbRating", 
+				"title": "Imdbrating", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"imdbVotes": {
+				"$id": "#root/items/imdbVotes", 
+				"title": "Imdbvotes", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"imdbID": {
+				"$id": "#root/items/imdbID", 
+				"title": "Imdbid", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Type": {
+				"$id": "#root/items/Type", 
+				"title": "Type", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Response": {
+				"$id": "#root/items/Response", 
+				"title": "Response", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			},
+			"Image": {
+				"$id": "#root/items/Image", 
+				"title": "Image", 
+				"type": "string",
+				"default": "",
+				"pattern": "^.*$"
+			}
+		}
+	}
+
+}
