@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'facd734756886d1d04492bd8d26cbf435e20128a',
+    'reference' => 'a4a1a3e2e48cd3ffc2c176a52113a78f7173c2b4',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'facd734756886d1d04492bd8d26cbf435e20128a',
+      'reference' => 'a4a1a3e2e48cd3ffc2c176a52113a78f7173c2b4',
     ),
     'justinrainbow/json-schema' => 
     array (
