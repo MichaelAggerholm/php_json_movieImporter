@@ -51,7 +51,10 @@ function insertIntoMoviesTable($conn, $arrayOfFields) {
     poster, metaScore, imdbRating, imdbVotes, imdbID, type, response, image)
     VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-    $insertStmt->execute($arrayOfFields);
+    $success = $insertStmt->execute($arrayOfFields);
+    if (!$success) { 
+        throw new Exception('Insert to movies table failed!'); 
+    }
 }
 
 

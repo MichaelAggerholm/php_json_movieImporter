@@ -5,7 +5,7 @@
     include_once 'importer.php';
 
     // Call functions to read, validate and import validated json data. 
-    $validated_data = validate_json('./import_files/Film_bigData.JSON', './json_validators/movie_validator.json');
+    $validated_data = validate_json('./import_files/Film.JSON', './json_validators/movie_validator.json');
     import_validJSON($validated_data, $conn);
 
     // Lukker forbindelsen efter indsættelse.

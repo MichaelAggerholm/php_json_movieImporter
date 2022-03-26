@@ -38,7 +38,7 @@
             //echo "Success!";
             }
         } catch (Exception $e) {
-            echo "Error!";
+            throw new Exception('Import to database failed!'); 
         }
     }
 
