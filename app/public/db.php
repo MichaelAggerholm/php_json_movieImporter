@@ -41,7 +41,18 @@ $createMovies = (
         PRIMARY KEY(id)
     );"
 );
-
 $conn->exec($createMovies);
+
+// Insert into movies table: 
+function insertIntoMoviesTable($conn, $arrayOfFields) {
+    // Insert movies to db:
+    $insertStmt = $conn->prepare("INSERT INTO   movies (title, year, rated, released, runtime, genre, 
+    director, writer, actors, plot, language, country, awards, 
+    poster, metaScore, imdbRating, imdbVotes, imdbID, type, response, image)
+    VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+
+    $insertStmt->execute($arrayOfFields);
+}
+
 
 ?>

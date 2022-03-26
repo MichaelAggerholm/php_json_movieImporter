@@ -9,19 +9,25 @@ class ComposerStaticInit74ceecb91a2ea7f97825b78aa4bf23c1
     public static $prefixLengthsPsr4 = array (
         'J' => 
         array (
+            'JsonStreamingParser\\Test\\' => 25,
+            'JsonStreamingParser\\' => 20,
             'JsonSchema\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'JsonStreamingParser\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/salsify/json-streaming-parser/tests',
+        ),
+        'JsonStreamingParser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/salsify/json-streaming-parser/src',
+        ),
         'JsonSchema\\' => 
         array (
             0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
-    );
-
-    public static $classMap = array (
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -29,7 +35,6 @@ class ComposerStaticInit74ceecb91a2ea7f97825b78aa4bf23c1
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit74ceecb91a2ea7f97825b78aa4bf23c1::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit74ceecb91a2ea7f97825b78aa4bf23c1::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit74ceecb91a2ea7f97825b78aa4bf23c1::$classMap;
 
         }, null, ClassLoader::class);
     }

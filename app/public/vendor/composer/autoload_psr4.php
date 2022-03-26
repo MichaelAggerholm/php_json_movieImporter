@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'JsonStreamingParser\\Test\\' => array($vendorDir . '/salsify/json-streaming-parser/tests'),
+    'JsonStreamingParser\\' => array($vendorDir . '/salsify/json-streaming-parser/src'),
     'JsonSchema\\' => array($vendorDir . '/justinrainbow/json-schema/src/JsonSchema'),
 );
